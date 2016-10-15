@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Сryptographer
 {
+    /// <summary>
+    /// interface which works with data source 
+    /// </summary>
     interface ISourceReader
     {
         byte[] ReadForCheck(string strPath, int size);

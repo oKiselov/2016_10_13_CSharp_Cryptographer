@@ -56,11 +56,6 @@ namespace Сryptographer
             if (arrBytes == null || arrBytes.Length <= 0)
                 throw new СryptographerException("Plain data for saving new object", "Source is empty", DateTime.Now);
 
-            //Console.WriteLine(Encoding.Unicode.GetString(arrBytes));
-            if (!CheckObjectExist(strPathToFile))
-            {
-                throw new СryptographerException("File with such address already exists", strPathToFile, DateTime.Now);
-            }
             using (FileStream fs = new FileStream(strPathToFile, FileMode.Create, FileAccess.Write))
             {
                 BinaryWriter binWriterToFile = new BinaryWriter(fs);
@@ -69,6 +64,12 @@ namespace Сryptographer
             return true;
         }
 
+        /// <summary>
+        /// Method for writing array of encorypted/decrypted string to new file 
+        /// </summary>
+        /// <param name="strPathToFile"></param> - new files name 
+        /// <param name="strBytes"></param> - array of encorypted/decrypted bytes 
+        /// <returns></returns>
         public bool SaveNewObject(string strPathToFile, string strBytes)
         {
             if (strPathToFile == null || strPathToFile.Length <= 0)
@@ -76,10 +77,6 @@ namespace Сryptographer
             if (strBytes == null || strBytes.Length <= 0)
                 throw new СryptographerException("Plain data for saving new object", "Source is empty", DateTime.Now);
 
-            if (!CheckObjectExist(strPathToFile))
-            {
-                throw new СryptographerException("File with such address already exists", strPathToFile, DateTime.Now);
-            }
             using (FileStream fs = new FileStream(strPathToFile, FileMode.Create, FileAccess.Write))
             {
                 BinaryWriter binWriterToFile = new BinaryWriter(fs);

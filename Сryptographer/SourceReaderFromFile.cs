@@ -12,7 +12,8 @@ namespace Сryptographer
     {
         /// <summary>
         /// Method of reading of the part of file for password checking 
-        /// 16+16 (2 hashes)+18(string "Encrypted" to array of bytes)
+        /// 16+16 (2 hashes)+18(string "Encrypted" to array of bytes) - RC4
+        /// 16+32 (2 hashes)+18(string "Encrypted" to array of bytes) - AES
         /// </summary>
         /// <param name="strPath"></param>
         /// <returns></returns>
@@ -43,7 +44,6 @@ namespace Сryptographer
                     arrBytesFromFileRet = new byte[1];
                 }
             }
-            Console.WriteLine(Encoding.Unicode.GetString(arrBytesFromFileRet));
             return arrBytesFromFileRet;
         }
 

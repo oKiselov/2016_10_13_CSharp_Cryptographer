@@ -8,6 +8,11 @@ using System.Threading.Tasks;
 
 namespace Сryptographer
 {
+    /// <summary>
+    /// abstract class of algorithm and method of encryption or decryption 
+    /// contains of methods which are independent of data sources and types of writing data 
+    /// works just with array of crypted bytes 
+    /// </summary>
     abstract class AlgorithmCrypt
     {
         public abstract byte[] Encrypt(byte[] dataForEncrypt, byte[] key, byte[] hash);

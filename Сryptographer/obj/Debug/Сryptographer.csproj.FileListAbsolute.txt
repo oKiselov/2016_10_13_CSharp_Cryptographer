@@ -1,8 +1,0 @@
-D:\Science\itStep\GIT\2016_10_09_CSharp_Exam\Сryptographer\Сryptographer\bin\Debug\Сryptographer.exe.config
-D:\Science\itStep\GIT\2016_10_09_CSharp_Exam\Сryptographer\Сryptographer\bin\Debug\Сryptographer.exe
-D:\Science\itStep\GIT\2016_10_09_CSharp_Exam\Сryptographer\Сryptographer\bin\Debug\Сryptographer.pdb
-D:\Science\itStep\GIT\2016_10_09_CSharp_Exam\Сryptographer\Сryptographer\obj\Debug\Сryptographer.exe
-D:\Science\itStep\GIT\2016_10_09_CSharp_Exam\Сryptographer\Сryptographer\obj\Debug\Сryptographer.pdb
-D:\Science\itStep\GIT\2016_10_09_CSharp_Exam\Сryptographer\Сryptographer\bin\Debug\log4net.dll
-D:\Science\itStep\GIT\2016_10_09_CSharp_Exam\Сryptographer\Сryptographer\bin\Debug\log4net.xml
-D:\Science\itStep\GIT\2016_10_09_CSharp_Exam\Сryptographer\Сryptographer\obj\Debug\Сryptographer.csprojResolveAssemblyReference.cache

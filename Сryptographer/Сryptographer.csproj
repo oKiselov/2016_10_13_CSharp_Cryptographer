@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlgorithmCrypt.cs" />
+    <Compile Include="Controler.cs" />
     <Compile Include="MyAESManaged.cs" />
     <Compile Include="СryptographerException.cs" />
     <Compile Include="Program.cs" />
@@ -58,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

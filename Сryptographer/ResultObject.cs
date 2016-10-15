@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Сryptographer
 {
+    /// <summary>
+    /// Interface for creation of results of en-decryption activity
+    /// </summary>
     interface IResultObject
     {
         bool CheckObjectExist(string strPathToFile);
